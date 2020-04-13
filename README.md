@@ -3,3 +3,8 @@
 
 
 后端采用thinkphp 5.1
+
+
+欢迎打赏赞助
+![image](https://github.com/zp0794/dingtalk_mini_program/blob/master/qrcode/wx.jpg)
+![image](https://github.com/zp0794/dingtalk_mini_program/blob/master/qrcode/zfb.jpg)

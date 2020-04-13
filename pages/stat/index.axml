@@ -1,0 +1,24 @@
+<view class="page">
+  <view class="work_type">
+    <view class="a_container">
+      <view class="type_wrapper">
+        <view class="type_link" onTap="toOrderList" data-type="1">
+          <view class="type_icon">
+            <image src="/images/data.png" mode="center"/>
+          </view>
+          <view class="type_name">中午不用餐</view>
+          <view class="type_num">{{cancel_lunch_order_num}}</view>
+        </view>
+      </view>
+      <view class="type_wrapper">
+        <view class="type_link" onTap="toOrderList" data-type="2">
+          <view class="type_icon">
+            <image src="/images/data.png" mode="center"/>
+          </view>
+          <view class="type_name">晚上不用餐数</view>
+          <view class="type_num">{{cancel_dinner_order_num}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

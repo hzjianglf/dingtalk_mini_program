@@ -1,0 +1,12 @@
+
+.page {
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 24rpx;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.a_container {
+  padding: 0 15px;
+  background-color: #fff;
+}

@@ -1,0 +1,147 @@
+/* 消息列表 */
+
+.msg_list {
+  border-top: 1px solid #f2f2f2;
+}
+
+.msg_list .list_wrapper {
+  position: relative;
+  padding-left: 50px;
+}
+
+.msg_list .list_wrapper .list_icon {
+  position: absolute;
+  top: 22px;
+  left: 30px;
+}
+
+.msg_list .list_wrapper .list_icon .un_read {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FA5051;
+}
+
+.msg_list .list_wrapper .list_box {
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.msg_list .list_wrapper .list_box .item_info {
+  padding-right: 30px;
+}
+
+.msg_list .list_wrapper .list_box .info_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.msg_list .list_wrapper .list_box .info_title .title_name {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.msg_list .list_wrapper .list_box .info_title .title_time {
+  color: #CCCCCC;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.msg_list .list_wrapper .list_box .info_desc {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c_loading {
+  padding: 24px 0;
+  text-align: center;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.c_loading icon {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.c_loading text {
+  vertical-align: middle;
+}
+
+.end_tip {
+  padding: 24px 0;
+  text-align: center;
+  position: relative;
+}
+
+.end_tip:before {
+  content: '';
+  display: block;
+  width: calc(50% - 10px);
+  background: #F2F2F2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.5px;
+  z-index: 2;
+}
+
+.end_tip:after {
+  content: '';
+  display: block;
+  width: calc(50% - 10px);
+  background: #F2F2F2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.5px;
+  z-index: 2;
+}
+
+.end_tip text {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.no_data_tip {
+  padding: 24px 0;
+  text-align: center;
+  position: relative;
+}
+
+.no_data_tip:before {
+  content: '';
+  display: block;
+  width: calc(50% - 10px);
+  background: #F2F2F2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.5px;
+  z-index: 2;
+}
+
+.no_data_tip:after {
+  content: '';
+  display: block;
+  width: calc(50% - 10px);
+  background: #F2F2F2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.5px;
+  z-index: 2;
+}
+
+.no_data_tip text {
+  color: #ccc;
+  font-size: 12px;
+}

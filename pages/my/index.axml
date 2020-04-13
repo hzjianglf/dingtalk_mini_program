@@ -1,0 +1,32 @@
+<view class="page">
+    <view class="a_model c_list">
+        <view class="model_type msg_list">
+            <view class="list_wrapper" a:for="{{list.data}}">
+                <view class="list_link" data-id="{{item.order_id}}">
+                    <view class="list_icon">
+                        <view class="iconfont read un_read"></view>
+                    </view>
+                    <view class="list_box">
+                        <view class="item_info">
+                            <view class="info_title">
+                                <view class="title_name">{{item.name}}</view>
+                                <view class="title_time">{{item.create_time}}</view>
+                            </view>
+                            <view class="info_desc">{{item.order_type_text}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="a_model c_loading" a:if="{{isLoading}}">
+        <icon type="waiting" size="15" color="#ccc" />
+        <text>数据加载中...</text>
+    </view>
+    <view class="no_data_tip" a:if="{{ !isLoading && !list.data.length }}">
+        <text class="cont">今日没有报餐信息哦！</text>
+    </view>
+    <view class="end_tip" a:if="{{no_more}}">
+        <text>没有更多报餐信息了</text>
+    </view>
+</view>

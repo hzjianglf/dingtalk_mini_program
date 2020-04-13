@@ -1,0 +1,42 @@
+<view class="page">
+  <view class="user_title">
+    <view class="a_container">
+      <view class="title_box">
+        <view class="title_avatar">
+          <image src="/images/avatar.png" mode="center"/>
+        </view>
+        <view class="title_info">
+          <text class="name">{{user_name}}</text>
+          <text class="depart">{{user_mobile}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="a_model c_list">
+    <view class="model_type crm_list">
+      <view class="list_wrapper">
+        <view class="list_link" onTap="submitLunch">
+          <view class="list_icon">
+            <image src="/images/add.png" mode="center"/>
+          </view>
+          <view class="list_box">
+            <view class="info_title">中午餐</view>
+            <view class="info_cancel" a:if="{{cancel_lunch_order_id}}">不用餐</view>
+            <view class="info_ok" a:else="{{!cancel_lunch_order_id}}">用餐</view>
+          </view>
+        </view>
+        <view class="list_link" onTap="submitDinner">
+          <view class="list_icon">
+            <image src="/images/add.png" mode="center"/>
+          </view>
+          <view class="list_box">
+            <view class="info_title">晚餐</view>
+            <view class="info_cancel" a:if="{{cancel_dinner_order_id}}">不用餐</view>
+            <view class="info_ok" a:else="{{!cancel_dinner_order_id}}">用餐</view>
+          </view>
+        </view>
+      </view>
+      <view class="notice">首次点击是“取消”，再次点击是“用餐”</view>
+    </view>
+  </view>
+</view>

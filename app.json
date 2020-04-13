@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/index",
+    "pages/order/index",
+    "pages/stat/index"
+  ],
+  "window": {
+    "defaultTitle": "报餐"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#333",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "images/user.png",
+        "activeIcon": "images/user-fill.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "name": "我的记录",
+        "icon": "images/folder.png",
+        "activeIcon": "images/folder-fill.png"
+      },
+      {
+        "pagePath": "pages/stat/index",
+        "name": "今日不用餐",
+        "icon": "images/pie-chart.png",
+        "activeIcon": "images/pie-chart-circle-fil.png"
+      }
+    ]
+  }
+}

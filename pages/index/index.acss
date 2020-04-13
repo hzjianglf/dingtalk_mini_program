@@ -1,0 +1,129 @@
+.user_title {
+  margin: 30px 15px 30px;
+  box-shadow: 3px 5px 9px 5px #F1F1F5;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+
+.user_title .a_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.user_title .title_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_title .title_box .title_btn {
+  padding: 0 10px;
+}
+
+.user_title .title_box .title_avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user_title .title_box .title_avatar image {
+  width: 69px;
+  height: 69px;
+}
+
+.user_title .title_box .title_info {
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.user_title .title_box .title_info .name {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.user_title .title_box .title_info .depart {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.user_title .title_more {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.crm_list {
+  margin: 0 15px;
+  box-shadow: 3px 5px 9px 5px #F1F1F5;
+  border-radius: 3px;
+}
+
+.crm_list .list_wrapper .list_link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.crm_list .list_wrapper .list_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  padding: 0 25px;
+  color: #3295FA;
+  font-size: 25px;
+}
+
+.crm_list .list_wrapper .list_icon image {
+  width: 20px;
+  height: 20px;
+}
+
+.crm_list .list_wrapper .list_box {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #3295FA;
+  width: 100%;
+  padding: 24px 0;
+  padding-right: 20px;
+}
+
+.crm_list .list_wrapper .info_title {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.crm_list .list_wrapper .info_cancel {
+  color: red;
+}
+
+.crm_list .list_wrapper .info_ok {
+  color: green;
+}
+
+.crm_list .list_wrapper .item_icon {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.notice {
+  padding: 20px;
+  color: #3295FA;
+  font-size: 14px;
+  line-height: 1;
+}

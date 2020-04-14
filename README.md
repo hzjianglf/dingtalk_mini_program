@@ -12,6 +12,6 @@ git https://github.com/zp0794/dingtalk_web
 ![image](https://github.com/zp0794/dingtalk_mini_program/blob/master/qrcode/zfb.jpg)
 
 
-# 前端地址
+# 前端图片
 
 ![image](https://github.com/zp0794/dingtalk_mini_program/blob/master/qrcode/1.jpg)
